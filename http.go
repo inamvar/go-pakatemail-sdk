@@ -9,7 +9,7 @@ import (
 	"net/http"
 )
 
-var API_KEY = "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"
+var API_KEY = "<your api key>"
 var BASE_URL = "https://api.pakat.net/v3"
 
 func makeRequest(path string, method string, message *Message) (*http.Request, error) {

@@ -9,8 +9,8 @@ import (
 
 func TestCreateTransactional(t *testing.T) {
 	msg := &pakat.Message{
-		To:          []pakat.Address{{Name: "Iman Namvar", Email: "iman.namvar@gmail.com"}},
-		Sender:      &pakat.Address{Name: "keypad", Email: "no-reply@keypad.ir"},
+		To:          []pakat.Address{{Name: "<name>", Email: "user@example.com"}},
+		Sender:      &pakat.Address{Name: "<sender name>", Email: "no-reply@yourdomain.com"},
 		Subject:     "test",
 		TextContent: "this is a test",
 	}
