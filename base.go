@@ -1,7 +1,7 @@
 package pakat
 
 type Address struct {
-	Name  string `json:"name"`
+	Name  string `json:"name,omitempty"`
 	Email string `json:"email"`
 }
 
